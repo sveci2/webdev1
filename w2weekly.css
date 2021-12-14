@@ -1,0 +1,113 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+}
+
+.background {
+  background: black;
+  background-blend-mode: darken;
+  background-size: auto;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover {
+  color: grey;
+}
+
+.firstsection {
+  background-color: rgb(230, 226, 176);
+  height: flex;
+}
+
+.secondsection {
+  background-color: rgb(99, 185, 185);
+  height: flex;
+}
+
+.box-main {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  color: black;
+  max-width: 80%;
+  margin: auto;
+  height: 80%;
+}
+
+.firsthalf {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-big {
+  font-family: "Piazzolla", serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.text-small {
+  font-size: 18px;
+}
+
+.text-medium {
+  font-size: 20px;
+}
+
+.example {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: cursive;
+}
+
+/* TEXT COLOR */
+.body {
+  color: color blue;
+}
+
+/* TEXT ALIGNMENT */
+.bodytext {
+  text-align: center;
+}
+
+/* TEXT DECORATION */
+.bodydecoration {
+  text-decoration: overline;
+}
+
+/* TEXT TRANSFORMATION */
+.bodydecoration {
+  text-transform: uppercase;
+}
+
+/* TEXT INTENDATION */
+.bodyintendation {
+  text-indent: 30px;
+}
+
+/* LETTER SPACING */
+.bodyspacing {
+  letter-spacing: 10px;
+}
+
+#backgroundclip {
+  border: 10px dotted black;
+  padding: 15px;
+  background: lightblue;
+  background-clip: border-box;
+}
+
+#borderradius {
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 25px;
+}
